@@ -1,5 +1,4 @@
 /libsodium/
-/polyfill/
 /vendor/
 /tests/
 phpunit.xml.dist
@@ -10,3 +9,4 @@ composer.phar
 .travis.yml
 LICENSE
 README.md
+boot.php
