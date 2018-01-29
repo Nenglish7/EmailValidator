@@ -26,7 +26,7 @@ final class ExceptionTest extends TestCase
     
     public function testXSSProtectGuard()
     {
-        $badData = '<body style="color:#fff;"></body>'
+        $badData = '<body style="color:#fff;"></body>';
         $goodData = $this->xssProtect($badData);
         $this->assertTrue($goodData !== $badData);
     }
