@@ -9,7 +9,7 @@
 namespace Nenglish7\Encryption\Exception;
 
 /**
- * ExceptionInterface
+ * ExceptionInterface.
  */
 interface ExceptionInterface
 {
