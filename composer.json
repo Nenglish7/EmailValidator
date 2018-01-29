@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nenglish7\\Encryption\\": "./src"
+            "Nenglish7\\Lovell\\": "./src"
         },
         "files": [
             "./boot.php"
