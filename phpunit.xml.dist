@@ -18,7 +18,6 @@
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>./src</directory>
             <exclude>
-                <directory>./libsodium</directory>
                 <directory>./vendor</directory>
                 <directory>./tests</directory>
             </exclude>
@@ -27,7 +26,7 @@
     <logging>
         <log type="coverage-clover" target="./build/logs/clover.xml" />
     </logging>
-    <testsuite name="Nenglish7/Encryption Test Suite">
+    <testsuite name="Nenglish7/EmailValidator Test Suite">
         <directory suffix="Test.php">./tests</directory>
     </testsuite>
 </phpunit>
