@@ -27,8 +27,8 @@ class KeyGuardException extends RuntimeException implements ExceptionInterface
      */
     function __construct(string $message, int $code)
     {
-        $message = $this->xssProtect($message);   
-        $code = $this->xssProtect($code);
+        $message = $this->xssProtect($message, 'UTF-8');   
+        $code = $this->xssProtect($code, 'UTF-8');
         parent::__construct(\sprintf('`%s` - `%s`', $message, $code));
     }
  
