@@ -12,7 +12,7 @@
         "php-encryption",
         "password-hashing"
     ],
-    "description": "An encryption library powered by libsodium.",
+    "description": "An encryption library powered by libsodium. Lovell is the key to secure php applications.",
     "homepage": "https://github.com/Nenglish7/Encryption",
     "license": "MIT",
     "authors": [
