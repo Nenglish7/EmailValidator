@@ -9,12 +9,12 @@ declare(strict_types=1);
  * @package Laxove\Security.
  */
  
-namespace LaxovePHP\Security\Exception;
+namespace LaxovePHP\Security\Guard;
  
 /**
- * XSSGuardExceptionTrait.
+ * XSSGuardTrait.
  */
-trait XSSGuardExceptionTrait
+trait XSSGuardTrait
 {
     
     /**
