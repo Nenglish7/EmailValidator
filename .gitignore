@@ -2,6 +2,7 @@
 /polyfill/
 /vendor/
 /tests/
+phpunit.xml.dist
 composer.json
 composer.lock
 composer.phar
