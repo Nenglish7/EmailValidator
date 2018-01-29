@@ -29,11 +29,7 @@ class KeyCreationFailedException extends RuntimeException implements ExceptionIn
     {
         $message = $this->xssProtect($message);   
         $code = $this->xssProtect($code);
-        parent::__construct(\sprintf(
-            'SYSTEM_ERROR: Message: `%s`, Errcode: `%s`.',
-            $message,
-            $code
-        ));
+        parent::__construct(\sprintf('`%s` - `%s`', $message, $code));
     }
  
 }
