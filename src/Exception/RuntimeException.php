@@ -6,7 +6,7 @@
  * @license <https://github.com/LaxovePHP/Encryption/blob/master/LICENSE> New BSD License.
  */
  
- namespace Nenglish7\Encryption\Exception;
+ namespace Nenglish7\Lovell\Exception;
  
  /**
   * RuntimeException.
