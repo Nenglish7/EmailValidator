@@ -6,7 +6,10 @@
         "libsodium-php",
         "php7-0",
         "php7-1",
-        "php7-2"
+        "php7-2",
+        "secure-coding",
+        "php-security",
+        "php-encryption"
     ],
     "description": "An encryption library powered by libsodium.",
     "homepage": "https://github.com/Nenglish7/Encryption",
