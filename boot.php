@@ -6,4 +6,4 @@
  * @license <https://github.com/LaxovePHP/Encryption/blob/master/LICENSE> New BSD License.
  */
  
-define('NENGLISH7_ENCRYPTION_PRE_LOADED', true);
+define('NENGLISH7_LOVELL_PRE_LOADED', true);
