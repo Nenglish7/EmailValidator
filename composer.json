@@ -9,7 +9,8 @@
         "php7-2",
         "secure-coding",
         "php-security",
-        "php-encryption"
+        "php-encryption",
+        "password-hashing"
     ],
     "description": "An encryption library powered by libsodium.",
     "homepage": "https://github.com/Nenglish7/Encryption",
