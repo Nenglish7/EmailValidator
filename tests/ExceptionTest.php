@@ -16,7 +16,7 @@ use PHPUnit\Framework\TestCase;
 final class ExceptionTest extends TestCase
 {
 
-    use XSSGuardExceptionTrait;
+    use Exception\XSSGuardExceptionTrait;
     
     public function testError()
     {
