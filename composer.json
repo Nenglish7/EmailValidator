@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^5.6|^7",
-        "ext-libsodium": "^2"
+        "ext-sodium": "*"
     },
     "autoload": {
         "psr-4": {
