@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/Nenglish7/Lovell.svg?branch=master)](https://travis-ci.org/Nenglish7/Lovell)
+[![Build Status](https://travis-ci.org/Nenglish7/Lovell.svg?branch=master)](https://travis-ci.org/Nenglish7/Lovell) [![Coverage Status](https://coveralls.io/repos/github/Nenglish7/Lovell/badge.svg?branch=master)](https://coveralls.io/github/Nenglish7/Lovell?branch=master)
