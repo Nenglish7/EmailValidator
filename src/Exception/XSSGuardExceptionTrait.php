@@ -5,9 +5,11 @@ declare(strict_types=1);
  *
  * @link    <https://github.com/Nenglish7/Lovell> Github Repository.
  * @license <https://github.com/Nenglish7/Lovell/blob/master/LICENSE> New BSD License.
+ *
+ * @package Laxove\Security.
  */
  
-namespace Nenglish7\Lovell\Exception;
+namespace LaxovePHP\Security\Exception;
  
 /**
  * XSSGuardExceptionTrait.
@@ -25,7 +27,7 @@ trait XSSGuardExceptionTrait
      */
     public function xssProtect($data, string $encoding): string
     {
-        $data = strval($data);
+        $data = \strval($data);
         return htmlspecialchars($data, \ENT_QUOTES, $encoding);
     }
   
