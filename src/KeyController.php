@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace Nenglish7\Lovell;
 
 /**
- * KeyBuild.
+ * KeyController.
  */
 class KeyController implements KeyControllerInterface
 {
