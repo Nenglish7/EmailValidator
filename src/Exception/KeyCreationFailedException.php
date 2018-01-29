@@ -7,23 +7,33 @@ declare(strict_types=1);
  * @license <https://github.com/Nenglish7/Lovell/blob/master/LICENSE> New BSD License.
  */
  
- namespace Nenglish7\Lovell\Exception;
+namespace Nenglish7\Lovell\Exception;
  
- /**
-  * KeyCreationFailed.
-  */
- class KeyCreationFailedException extends RuntimeException implements ExceptionInterface
- {
-     /**
-      * Constuct a custom key creation exception.
-      *
-      * @param mixed ...$params The list of parameters used during execution.
-      *
-      * @throws RuntimeException.
-      *
-      * @return void.
-      */
-     function __construct(...$params)
-     {
-     }
- }
+/**
+ * KeyCreationFailed.
+ */
+class KeyCreationFailedException extends RuntimeException implements ExceptionInterface
+{
+  
+    use XSSGuardExceptionTrait;
+  
+    /**
+     * Constuct a custom key creation exception.
+     *
+     * @param string $message The message for the occurring error.
+     * @param int $code       The error code so the error can be looked up.
+     *
+     * @return void.
+     */
+    function __construct(string $message, int $code)
+    {
+        $message = $this->xssProtect($message);   
+        $code = $this->xssProtect($code);
+        parent::__construct(\sprintf(
+            'SYSTEM_ERROR: Message: `%s`, Errcode: `%s`.',
+            $message,
+            $code
+        ));
+    }
+ 
+}
