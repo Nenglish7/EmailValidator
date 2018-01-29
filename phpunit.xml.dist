@@ -19,7 +19,6 @@
             <directory>./src</directory>
             <exclude>
                 <directory>./libsodium</directory>
-                <directory>./polyfill</directory>
                 <directory>./vendor</directory>
                 <directory>./tests</directory>
             </exclude>
